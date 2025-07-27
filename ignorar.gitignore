@@ -1,0 +1,9 @@
+# Archivos generados por Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.vspx
+*.vspscc
+*.vssscc

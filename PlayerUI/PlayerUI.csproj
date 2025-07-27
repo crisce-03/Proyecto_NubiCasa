@@ -65,6 +65,13 @@
     <Compile Include="Controlls\HuespedControls\MisReservasControl.Designer.cs">
       <DependentUpon>MisReservasControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AgregarContraseña2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AgregarContraseña2.Designer.cs">
+      <DependentUpon>AgregarContraseña2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Conexion.cs" />
     <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controlls\HuespedControls\MisReservasControl.resx">
       <DependentUpon>MisReservasControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AgregarContraseña2.resx">
+      <DependentUpon>AgregarContraseña2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

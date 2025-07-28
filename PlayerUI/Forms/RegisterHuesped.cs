@@ -70,13 +70,16 @@ namespace PlayerUI.Forms
                 return;
             }
 
-            string connectionString = "Server=DESKTOP-BPP96GF;Database=Plater_UI;Trusted_Connection=True;";
 
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+
+            using (SqlConnection conexion = Conexion.ObtenerConexion())
             {
                 try
                 {
-                    conexion.Open();
+                    if (conexion.State != ConnectionState.Open)
+                    {
+                        conexion.Open();
+                    }
                     string query = "INSERT INTO Huesped (Nombre, Apellido, Dui, Nacionalidad, Telefono, Contrasena, Correo, Fecha_Nacimiento, Ocupacion) VALUES (@Nombre, @Apellido, @Dui, @Nacionalidad, @Telefono, @Contrasena, @Correo, @Fecha_Nacimiento, @Ocupacion)";
 
                     using (SqlCommand comando = new SqlCommand(query, conexion))

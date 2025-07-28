@@ -117,6 +117,18 @@
     <Compile Include="Forms\PanelUsuario.Designer.cs">
       <DependentUpon>PanelUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\RegisterAnfitrion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RegisterAnfitrion.Designer.cs">
+      <DependentUpon>RegisterAnfitrion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RegisterHuesped.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RegisterHuesped.Designer.cs">
+      <DependentUpon>RegisterHuesped.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controlls\AnfitrionControls\InicioAnfitrionControl.resx">
@@ -151,6 +163,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PanelUsuario.resx">
       <DependentUpon>PanelUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RegisterAnfitrion.resx">
+      <DependentUpon>RegisterAnfitrion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RegisterHuesped.resx">
+      <DependentUpon>RegisterHuesped.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -44,9 +44,7 @@ namespace PlayerUI.Forms
                 return;
             }
 
-            string connectionString = "Server=DESKTOP-BPP96GF;Database=Plater_UI;Trusted_Connection=True;";
-
-            using (SqlConnection conexion = new SqlConnection(connectionString))
+            using (SqlConnection conexion = Conexion.ObtenerConexion())
             {
                 try
                 {

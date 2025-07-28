@@ -9,7 +9,7 @@ namespace PlayerUI.Forms
 {
     internal class Conexion
     {
-        private static string cadenaConexion = "Server=LaptopCarlos\\SQLEXPRESS;Database=Plater_UI;Trusted_Connection=True;";
+        private static string cadenaConexion = "Server=CRIS;Database=Plater_UI;Trusted_Connection=True;";
 
         public static SqlConnection ObtenerConexion()
         {

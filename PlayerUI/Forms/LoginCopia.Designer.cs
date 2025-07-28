@@ -64,7 +64,7 @@
             this.panel.Name = "panel";
             this.panel.RowCount = 1;
             this.panel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.panel.Size = new System.Drawing.Size(1570, 870);
+            this.panel.Size = new System.Drawing.Size(1256, 696);
             this.panel.TabIndex = 0;
             this.panel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_Paint);
             // 
@@ -80,7 +80,7 @@
             this.panelIzquierdo.Controls.Add(this.pictureBox2);
             this.panelIzquierdo.Location = new System.Drawing.Point(3, 3);
             this.panelIzquierdo.Name = "panelIzquierdo";
-            this.panelIzquierdo.Size = new System.Drawing.Size(857, 864);
+            this.panelIzquierdo.Size = new System.Drawing.Size(684, 690);
             this.panelIzquierdo.TabIndex = 0;
             this.panelIzquierdo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelIzquierdo_Paint);
             // 
@@ -89,7 +89,7 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::PlayerUI.Properties.Resources.logo_sin_fondo;
-            this.pictureBox1.Location = new System.Drawing.Point(254, 308);
+            this.pictureBox1.Location = new System.Drawing.Point(168, 221);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(273, 237);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -101,9 +101,9 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox2.Image = global::PlayerUI.Properties.Resources.clouds_upright_2x4;
-            this.pictureBox2.Location = new System.Drawing.Point(649, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(476, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(208, 864);
+            this.pictureBox2.Size = new System.Drawing.Size(208, 690);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -123,7 +123,7 @@
             this.panelDerecho.Controls.Add(this.txtUsuario);
             this.panelDerecho.Controls.Add(this.label1);
             this.panelDerecho.Controls.Add(this.flowPanelLogin);
-            this.panelDerecho.Location = new System.Drawing.Point(987, 155);
+            this.panelDerecho.Location = new System.Drawing.Point(743, 68);
             this.panelDerecho.Name = "panelDerecho";
             this.panelDerecho.Size = new System.Drawing.Size(459, 560);
             this.panelDerecho.TabIndex = 1;
@@ -153,6 +153,7 @@
             this.labelRegistrar.TabIndex = 9;
             this.labelRegistrar.Text = "Registrate";
             this.labelRegistrar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelRegistrar.Click += new System.EventHandler(this.labelRegistrar_Click);
             this.labelRegistrar.MouseEnter += new System.EventHandler(this.labelRegistrar_MouseEnter);
             this.labelRegistrar.MouseLeave += new System.EventHandler(this.labelRegistrar_MouseLeave);
             // 

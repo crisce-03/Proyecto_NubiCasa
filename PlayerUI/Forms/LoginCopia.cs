@@ -129,5 +129,12 @@ namespace PlayerUI
             panelUsuario.Show();
             this.Hide();
         }
+
+        private void labelRegistrar_Click(object sender, EventArgs e)
+        {
+            RegisterHuesped registerHuesped = new RegisterHuesped();
+            registerHuesped.Show();
+            this.Hide();
+        }
     }
 }

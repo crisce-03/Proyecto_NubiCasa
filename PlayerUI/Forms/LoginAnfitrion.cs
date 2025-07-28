@@ -128,5 +128,12 @@ namespace PlayerUI
             panelUsuario.Show();
             this.Close();
         }
+
+        private void labelRegistrar_Click(object sender, EventArgs e)
+        {
+           RegisterAnfitrion registerAnfitrion = new RegisterAnfitrion();
+            registerAnfitrion.Show();
+            this.Hide();
+        }
     }
 }

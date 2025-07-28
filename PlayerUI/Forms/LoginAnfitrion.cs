@@ -106,9 +106,9 @@ namespace PlayerUI
                 {
                     MessageBox.Show("Inicio de sesión exitoso", "Bienvenido");
 
-                    Form1 form1 = new Form1();
-                    form1.Show();
-                    this.Hide();
+                    OpcionesAnfitrion opcionesAnfitrion = new OpcionesAnfitrion();
+                    opcionesAnfitrion.Show();
+                    this.Close(); 
                 }
                 else
                 {

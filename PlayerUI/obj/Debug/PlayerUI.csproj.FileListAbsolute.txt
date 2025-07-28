@@ -100,3 +100,9 @@ C:\Users\ASUS\source\repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\Pla
 C:\Users\ASUS\source\repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarContraseña2.resources
 C:\Users\ASUS\source\repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Forms.RegisterAnfitrion.resources
 C:\Users\ASUS\source\repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Forms.RegisterHuesped.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarContraseña1.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.DatosAlojamiento.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.RegisterAnfitrion.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.RegisterHuesped.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.OpcionesAnfitrion.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.TipoResidencia.resources

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Proyecto_NubiCasa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\Usuario\\source\\repos\\Proyecto_NubiCasa\\playerui\\forms\\logincopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\usuario\\source\\repos\\proyecto_nubicasa\\playerui\\forms\\logincopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\forms\\logincopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\forms\\agregarcontrase\u00F1a1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\usuario\\source\\repos\\proyecto_nubicasa\\playerui\\forms\\agregarcontrase\u00F1a1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\Usuario\\source\\repos\\Proyecto_NubiCasa\\playerui\\forms\\agregarcontrase\u00F1a1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\forms\\agregarcontrase\u00F1a1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -86,8 +86,7 @@
               "RelativeToolTip": "PlayerUI\\Forms\\AgregarContrase\u00F1a1.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAD4vxYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T23:48:27.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T23:48:27.212Z"
             },
             {
               "$type": "Document",
@@ -99,8 +98,7 @@
               "RelativeToolTip": "PlayerUI\\Forms\\LoginAnfitrion.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAMwIQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T23:37:58.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T23:37:58.432Z"
             },
             {
               "$type": "Document",
@@ -111,8 +109,7 @@
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Forms\\LoginAnfitrion.cs [Dise\u00F1o]",
               "RelativeToolTip": "PlayerUI\\Forms\\LoginAnfitrion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T23:37:55.191Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-27T23:37:55.191Z"
             },
             {
               "$type": "Document",
@@ -123,8 +120,7 @@
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Forms\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "PlayerUI\\Forms\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T23:37:50.689Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-27T23:37:50.689Z"
             },
             {
               "$type": "Document",
@@ -136,8 +132,7 @@
               "RelativeToolTip": "PlayerUI\\Forms\\AgregarContrase\u00F1a2.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAIwEsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T19:58:41.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T19:58:41.246Z"
             },
             {
               "$type": "Document",
@@ -173,8 +168,7 @@
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Forms\\AgregarContrase\u00F1a1.cs [Dise\u00F1o]",
               "RelativeToolTip": "PlayerUI\\Forms\\AgregarContrase\u00F1a1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T23:41:02.791Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-27T23:41:02.791Z"
             },
             {
               "$type": "Document",
@@ -185,8 +179,7 @@
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Forms\\AgregarContrase\u00F1a2.cs [Dise\u00F1o]",
               "RelativeToolTip": "PlayerUI\\Forms\\AgregarContrase\u00F1a2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T19:56:37.248Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-27T19:56:37.248Z"
             },
             {
               "$type": "Document",
@@ -254,8 +247,7 @@
               "RelativeToolTip": "PlayerUI\\Forms\\Form1.cs",
               "ViewState": "AgIAABQAAAAAAAAAAADwv10AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T14:59:36.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T14:59:36.675Z"
             }
           ]
         }

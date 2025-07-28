@@ -12,7 +12,7 @@ namespace PlayerUI
 {
     public partial class InicioHuespedControl : Form
     {
-        private int idHuesped;
+        //private int idHuesped;
 
         public InicioHuespedControl()
         {

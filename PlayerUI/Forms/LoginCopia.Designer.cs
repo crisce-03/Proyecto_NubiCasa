@@ -43,6 +43,7 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.flowPanelLogin = new System.Windows.Forms.FlowLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel.SuspendLayout();
             this.panelIzquierdo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -115,6 +116,7 @@
             // 
             this.panelDerecho.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelDerecho.BackColor = System.Drawing.Color.White;
+            this.panelDerecho.Controls.Add(this.button1);
             this.panelDerecho.Controls.Add(this.labelRegistrar);
             this.panelDerecho.Controls.Add(this.label5);
             this.panelDerecho.Controls.Add(this.label4);
@@ -206,10 +208,10 @@
             // 
             this.btnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
             this.btnIniciarSesion.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciarSesion.Location = new System.Drawing.Point(161, 504);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(280, 502);
             this.btnIniciarSesion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.Size = new System.Drawing.Size(230, 78);
+            this.btnIniciarSesion.Size = new System.Drawing.Size(181, 76);
             this.btnIniciarSesion.TabIndex = 4;
             this.btnIniciarSesion.Text = "Iniciar Sesion";
             this.btnIniciarSesion.UseVisualStyleBackColor = false;
@@ -261,6 +263,19 @@
             this.flowPanelLogin.TabIndex = 0;
             this.flowPanelLogin.WrapContents = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(63, 502);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(181, 76);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Regresar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // LoginCopia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -298,5 +313,6 @@
         private System.Windows.Forms.Label labelRegistrar;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
     }
 }

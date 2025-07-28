@@ -122,5 +122,12 @@ namespace PlayerUI
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PanelUsuario panelUsuario = new PanelUsuario();
+            panelUsuario.Show();
+            this.Hide();
+        }
     }
 }

@@ -1,7 +1,9 @@
-﻿using System;
+﻿using PlayerUI.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -80,7 +82,51 @@ namespace PlayerUI
 
         private void label2_Click(object sender, EventArgs e)
         {
+            AgregarContraseña1 agregarContraseña1 = new AgregarContraseña1();
+            agregarContraseña1.Show();
+            this.Close();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string usuario = txtUsuario.Text.Trim();
+            string contrasena = txtContrasena.Text.Trim();
+
+            using (SqlConnection conexion = Conexion.ObtenerConexion())
+            {
+                string consulta = "SELECT COUNT(*) FROM Anfitrion WHERE Nombre = @Nombre AND Contrasena = @Contrasena";
+
+                SqlCommand comando = new SqlCommand(consulta, conexion);
+                comando.Parameters.AddWithValue("@Nombre", usuario);
+                comando.Parameters.AddWithValue("@Contrasena", contrasena);
+
+                int resultado = (int)comando.ExecuteScalar();
+
+                if (resultado > 0)
+                {
+                    MessageBox.Show("Inicio de sesión exitoso", "Bienvenido");
+
+                    Form1 form1 = new Form1();
+                    form1.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario o contraseña incorrectos", "Error");
+                }
+            }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PanelUsuario panelUsuario = new PanelUsuario();
+            panelUsuario.Show();
+            this.Close();
         }
     }
 }

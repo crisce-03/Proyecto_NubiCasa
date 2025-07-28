@@ -51,3 +51,4 @@ C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.cspr
 C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.exe
 C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.pdb
 C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarContraseña2.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarContraseña1.resources

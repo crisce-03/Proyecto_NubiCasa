@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# VS Code
+.vscode/
+
+# Otros temporales
+*.dbmdl
+*.dtbcache.json
+*.tmp

@@ -1,0 +1,95 @@
+G:\VS Project\PlayerUI\PlayerUI\bin\Debug\PlayerUI.exe.config
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.csprojResolveAssemblyReference.cache
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.Cache
+G:\VS Project\PlayerUI\PlayerUI\bin\Debug\PlayerUI.exe
+G:\VS Project\PlayerUI\PlayerUI\bin\Debug\PlayerUI.pdb
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.Form3.resources
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.exe
+G:\VS Project\PlayerUI\PlayerUI\obj\Debug\PlayerUI.pdb
+D:\RJ Code Advance\Test Projects\PlayerUI\PlayerUI\bin\Debug\PlayerUI.exe.config
+D:\RJ Code Advance\Test Projects\PlayerUI\PlayerUI\obj\Debug\PlayerUI.exe
+D:\RJ Code Advance\Test Projects\PlayerUI\PlayerUI\obj\Debug\PlayerUI.pdb
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\bin\Debug\PlayerUI.exe.config
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\bin\Debug\PlayerUI.exe
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\bin\Debug\PlayerUI.pdb
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.csproj.AssemblyReference.cache
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.exe.config
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.cache
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.exe
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.pdb
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.LoginCopia.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.PanelUsuario.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.LoginAnfitrion.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.InicioHuespedControl.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Controlls.BuscarPropiedadControl.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Controlls.MisReservasControl.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Controlls.AnfitrionControls.InicioAnfitrionControl.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\bin\Debug\PlayerUI.exe.config
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\bin\Debug\PlayerUI.exe
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\bin\Debug\PlayerUI.pdb
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.csproj.AssemblyReference.cache
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.exe.config
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Controlls.AnfitrionControls.InicioAnfitrionControl.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Controlls.BuscarPropiedadControl.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Controlls.MisReservasControl.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.InicioHuespedControl.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.LoginAnfitrion.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.LoginCopia.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.PanelUsuario.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.cache
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.exe
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.pdb
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarContraseña2.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.csproj.AssemblyReference.cache
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.exe
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.pdb
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\bin\Debug\PlayerUI.exe.config
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\bin\Debug\PlayerUI.exe
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\bin\Debug\PlayerUI.pdb
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.Controlls.AnfitrionControls.InicioAnfitrionControl.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.Controlls.BuscarPropiedadControl.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.Controlls.MisReservasControl.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarContraseña2.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.InicioHuespedControl.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.LoginAnfitrion.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.LoginCopia.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.PanelUsuario.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.Forms.RegisterAnfitrion.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.Forms.RegisterHuesped.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.cache
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa1\PlayerUI\obj\Debug\PlayerUI.csproj.CoreCompileInputs.cache
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\bin\Debug\PlayerUI.exe.config
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\bin\Debug\PlayerUI.exe
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\bin\Debug\PlayerUI.pdb
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.csproj.AssemblyReference.cache
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Controlls.AnfitrionControls.InicioAnfitrionControl.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Controlls.BuscarPropiedadControl.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Controlls.MisReservasControl.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarContraseña2.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.InicioHuespedControl.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.LoginAnfitrion.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.LoginCopia.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.PanelUsuario.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.RegisterAnfitrion.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.RegisterHuesped.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.cache
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.csproj.CoreCompileInputs.cache
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.exe
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.pdb

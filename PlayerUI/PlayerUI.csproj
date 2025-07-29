@@ -53,6 +53,12 @@
     <Compile Include="Controlls\AnfitrionControls\InicioAnfitrionControl.Designer.cs">
       <DependentUpon>InicioAnfitrionControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controlls\AnfitrionControls\MisPropiedadesControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controlls\AnfitrionControls\MisPropiedadesControl.Designer.cs">
+      <DependentUpon>MisPropiedadesControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controlls\HuespedControls\BuscarPropiedadControl.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,11 +84,17 @@
       <DependentUpon>AgregarContraseña2.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Conexion.cs" />
-    <Compile Include="Forms\DatosAlojamiento.cs">
+    <Compile Include="Forms\AgregarPropiedadForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\DatosAlojamiento.Designer.cs">
-      <DependentUpon>DatosAlojamiento.cs</DependentUpon>
+    <Compile Include="Forms\AgregarPropiedadForm.Designer.cs">
+      <DependentUpon>AgregarPropiedadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PanelAnfitrion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PanelAnfitrion.designer.cs">
+      <DependentUpon>PanelAnfitrion.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
@@ -117,12 +129,6 @@
     <Compile Include="Forms\LoginCopia.Designer.cs">
       <DependentUpon>LoginCopia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\OpcionesAnfitrion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\OpcionesAnfitrion.Designer.cs">
-      <DependentUpon>OpcionesAnfitrion.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\PanelUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,16 +147,13 @@
     <Compile Include="Forms\RegisterHuesped.Designer.cs">
       <DependentUpon>RegisterHuesped.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\TipoResidencia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\TipoResidencia.Designer.cs">
-      <DependentUpon>TipoResidencia.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controlls\AnfitrionControls\InicioAnfitrionControl.resx">
       <DependentUpon>InicioAnfitrionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controlls\AnfitrionControls\MisPropiedadesControl.resx">
+      <DependentUpon>MisPropiedadesControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controlls\HuespedControls\BuscarPropiedadControl.resx">
       <DependentUpon>BuscarPropiedadControl.cs</DependentUpon>
@@ -164,8 +167,11 @@
     <EmbeddedResource Include="Forms\AgregarContraseña2.resx">
       <DependentUpon>AgregarContraseña2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\DatosAlojamiento.resx">
-      <DependentUpon>DatosAlojamiento.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\AgregarPropiedadForm.resx">
+      <DependentUpon>AgregarPropiedadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PanelAnfitrion.resx">
+      <DependentUpon>PanelAnfitrion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -182,9 +188,6 @@
     <EmbeddedResource Include="Forms\LoginCopia.resx">
       <DependentUpon>LoginCopia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\OpcionesAnfitrion.resx">
-      <DependentUpon>OpcionesAnfitrion.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\PanelUsuario.resx">
       <DependentUpon>PanelUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,9 +196,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\RegisterHuesped.resx">
       <DependentUpon>RegisterHuesped.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\TipoResidencia.resx">
-      <DependentUpon>TipoResidencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -261,6 +261,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ignorar.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ImagenesPropiedades\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

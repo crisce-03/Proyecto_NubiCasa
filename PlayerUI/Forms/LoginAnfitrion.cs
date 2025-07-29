@@ -94,26 +94,29 @@ namespace PlayerUI
 
             using (SqlConnection conexion = Conexion.ObtenerConexion())
             {
-                string consulta = "SELECT COUNT(*) FROM Anfitrion WHERE Nombre = @Nombre AND Contrasena = @Contrasena";
+                string consulta = "SELECT ID_Anfitrion FROM Anfitrion WHERE Nombre = @Nombre AND Contrasena = @Contrasena";
+
 
                 SqlCommand comando = new SqlCommand(consulta, conexion);
                 comando.Parameters.AddWithValue("@Nombre", usuario);
                 comando.Parameters.AddWithValue("@Contrasena", contrasena);
 
-                int resultado = (int)comando.ExecuteScalar();
+                object resultado = comando.ExecuteScalar();
 
-                if (resultado > 0)
+                if (resultado != null)
                 {
+                    int idAnfitrion = Convert.ToInt32(resultado);
                     MessageBox.Show("Inicio de sesión exitoso", "Bienvenido");
 
-                    OpcionesAnfitrion opcionesAnfitrion = new OpcionesAnfitrion();
-                    opcionesAnfitrion.Show();
-                    this.Close(); 
+                    PanelAnfitrion panelAnfitrion = new PanelAnfitrion(idAnfitrion);
+                    panelAnfitrion.Show();
+                    this.Close();
                 }
                 else
                 {
                     MessageBox.Show("Usuario o contraseña incorrectos", "Error");
                 }
+
             }
         }
 

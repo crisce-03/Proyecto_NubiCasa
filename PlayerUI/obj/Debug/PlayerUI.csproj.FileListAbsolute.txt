@@ -106,3 +106,9 @@ C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Form
 C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.RegisterHuesped.resources
 C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.OpcionesAnfitrion.resources
 C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.TipoResidencia.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Forms.DatosAlojamiento.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Forms.OpcionesAnfitrion.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Forms.TipoResidencia.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Controlls.AnfitrionControls.MisPropiedadesControl.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarPropiedadForm.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.PanelAnfitrion.resources

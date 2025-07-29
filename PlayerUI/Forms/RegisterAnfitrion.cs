@@ -48,7 +48,10 @@ namespace PlayerUI.Forms
             {
                 try
                 {
-                    conexion.Open();
+                    if (conexion.State != ConnectionState.Open)
+                    {
+                        conexion.Open();
+                    }
                     string query = "INSERT INTO Anfitrion (Nombre, Apellido, Dui, Nacionalidad, Telefono, Contrasena, Correo, Fecha_Nacimiento) VALUES (@Nombre, @Apellido, @Dui, @Nacionalidad, @Telefono, @Contrasena, @Correo, @Fecha_Nacimiento)";
 
                     using (SqlCommand comando = new SqlCommand(query, conexion))

@@ -120,3 +120,4 @@ C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Cont
 C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarPropiedadForm.resources
 C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.PanelAnfitrion.resources
 C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Login.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Login.resources

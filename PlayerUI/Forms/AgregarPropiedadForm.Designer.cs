@@ -74,7 +74,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1013, 640);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1252, 687);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panelDerecho
@@ -100,9 +100,9 @@
             this.panelDerecho.Controls.Add(this.txtUbicacion);
             this.panelDerecho.Controls.Add(this.flowPanelLogin);
             this.panelDerecho.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDerecho.Location = new System.Drawing.Point(509, 3);
+            this.panelDerecho.Location = new System.Drawing.Point(629, 3);
             this.panelDerecho.Name = "panelDerecho";
-            this.panelDerecho.Size = new System.Drawing.Size(501, 634);
+            this.panelDerecho.Size = new System.Drawing.Size(620, 681);
             this.panelDerecho.TabIndex = 5;
            
             // 
@@ -111,9 +111,9 @@
             this.btnSeleccionarImagen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSeleccionarImagen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
             this.btnSeleccionarImagen.Font = new System.Drawing.Font("Century Gothic", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeleccionarImagen.Location = new System.Drawing.Point(366, 190);
+            this.btnSeleccionarImagen.Location = new System.Drawing.Point(441, 257);
             this.btnSeleccionarImagen.Name = "btnSeleccionarImagen";
-            this.btnSeleccionarImagen.Size = new System.Drawing.Size(83, 29);
+            this.btnSeleccionarImagen.Size = new System.Drawing.Size(108, 46);
             this.btnSeleccionarImagen.TabIndex = 27;
             this.btnSeleccionarImagen.Text = "Seleccionar";
             this.btnSeleccionarImagen.UseVisualStyleBackColor = false;
@@ -121,16 +121,18 @@
             // 
             // numCapacidad
             // 
+            this.numCapacidad.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.numCapacidad.Font = new System.Drawing.Font("Gadugi", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numCapacidad.Location = new System.Drawing.Point(77, 373);
+            this.numCapacidad.Location = new System.Drawing.Point(95, 428);
             this.numCapacidad.Name = "numCapacidad";
             this.numCapacidad.Size = new System.Drawing.Size(135, 38);
             this.numCapacidad.TabIndex = 26;
             // 
             // numPrecio
             // 
+            this.numPrecio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.numPrecio.Font = new System.Drawing.Font("Gadugi", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numPrecio.Location = new System.Drawing.Point(77, 304);
+            this.numPrecio.Location = new System.Drawing.Point(95, 368);
             this.numPrecio.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -145,7 +147,7 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(124, 6);
+            this.label5.Location = new System.Drawing.Point(184, 6);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(287, 41);
             this.label5.TabIndex = 24;
@@ -156,7 +158,7 @@
             this.btnCancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
             this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(267, 512);
+            this.btnCancelar.Location = new System.Drawing.Point(307, 551);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(164, 63);
             this.btnCancelar.TabIndex = 23;
@@ -166,10 +168,12 @@
             // 
             // cbTipo
             // 
+            this.cbTipo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbTipo.Font = new System.Drawing.Font("Gadugi", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTipo.FormattingEnabled = true;
-            this.cbTipo.Location = new System.Drawing.Point(79, 179);
+            this.cbTipo.Location = new System.Drawing.Point(95, 249);
             this.cbTipo.Name = "cbTipo";
-            this.cbTipo.Size = new System.Drawing.Size(175, 24);
+            this.cbTipo.Size = new System.Drawing.Size(175, 35);
             this.cbTipo.TabIndex = 22;
             // 
             // label9
@@ -179,7 +183,7 @@
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
-            this.label9.Location = new System.Drawing.Point(76, 160);
+            this.label9.Location = new System.Drawing.Point(92, 230);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(107, 16);
             this.label9.TabIndex = 21;
@@ -188,14 +192,16 @@
             // 
             // pictureBoxImagen
             // 
+            this.pictureBoxImagen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxImagen.BackColor = System.Drawing.Color.Silver;
             this.pictureBoxImagen.Cursor = System.Windows.Forms.Cursors.Cross;
-            this.pictureBoxImagen.Location = new System.Drawing.Point(340, 91);
+            this.pictureBoxImagen.Location = new System.Drawing.Point(412, 109);
             this.pictureBoxImagen.Name = "pictureBoxImagen";
-            this.pictureBoxImagen.Size = new System.Drawing.Size(130, 88);
+            this.pictureBoxImagen.Size = new System.Drawing.Size(158, 142);
             this.pictureBoxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxImagen.TabIndex = 20;
             this.pictureBoxImagen.TabStop = false;
+            this.pictureBoxImagen.Click += new System.EventHandler(this.pictureBoxImagen_Click);
             // 
             // label8
             // 
@@ -204,7 +210,7 @@
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
-            this.label8.Location = new System.Drawing.Point(337, 72);
+            this.label8.Location = new System.Drawing.Point(409, 90);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(52, 16);
             this.label8.TabIndex = 19;
@@ -218,7 +224,7 @@
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
-            this.label7.Location = new System.Drawing.Point(76, 354);
+            this.label7.Location = new System.Drawing.Point(92, 409);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(138, 16);
             this.label7.TabIndex = 17;
@@ -230,7 +236,7 @@
             this.txtDescripcion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDescripcion.Font = new System.Drawing.Font("Gadugi", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescripcion.Location = new System.Drawing.Point(77, 444);
+            this.txtDescripcion.Location = new System.Drawing.Point(95, 488);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(354, 38);
             this.txtDescripcion.TabIndex = 16;
@@ -242,7 +248,7 @@
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
-            this.label6.Location = new System.Drawing.Point(74, 425);
+            this.label6.Location = new System.Drawing.Point(92, 469);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(85, 16);
             this.label6.TabIndex = 13;
@@ -256,7 +262,7 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
-            this.label2.Location = new System.Drawing.Point(76, 89);
+            this.label2.Location = new System.Drawing.Point(92, 170);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 16);
             this.label2.TabIndex = 11;
@@ -268,9 +274,9 @@
             this.txtNombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNombre.Font = new System.Drawing.Font("Gadugi", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(77, 108);
+            this.txtNombre.Location = new System.Drawing.Point(95, 189);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(226, 38);
+            this.txtNombre.Size = new System.Drawing.Size(260, 38);
             this.txtNombre.TabIndex = 10;
             // 
             // label3
@@ -280,7 +286,7 @@
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
-            this.label3.Location = new System.Drawing.Point(76, 215);
+            this.label3.Location = new System.Drawing.Point(92, 287);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 16);
             this.label3.TabIndex = 6;
@@ -294,7 +300,7 @@
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
-            this.label4.Location = new System.Drawing.Point(74, 285);
+            this.label4.Location = new System.Drawing.Point(92, 349);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(115, 16);
             this.label4.TabIndex = 7;
@@ -306,7 +312,7 @@
             this.btnGuardar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
             this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Location = new System.Drawing.Point(79, 512);
+            this.btnGuardar.Location = new System.Drawing.Point(137, 551);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(164, 63);
             this.btnGuardar.TabIndex = 4;
@@ -319,7 +325,7 @@
             this.txtUbicacion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtUbicacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUbicacion.Font = new System.Drawing.Font("Gadugi", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUbicacion.Location = new System.Drawing.Point(77, 234);
+            this.txtUbicacion.Location = new System.Drawing.Point(95, 308);
             this.txtUbicacion.Name = "txtUbicacion";
             this.txtUbicacion.Size = new System.Drawing.Size(354, 38);
             this.txtUbicacion.TabIndex = 2;
@@ -330,7 +336,7 @@
             this.flowPanelLogin.AutoSize = true;
             this.flowPanelLogin.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.flowPanelLogin.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowPanelLogin.Location = new System.Drawing.Point(100, -6);
+            this.flowPanelLogin.Location = new System.Drawing.Point(160, 17);
             this.flowPanelLogin.Name = "flowPanelLogin";
             this.flowPanelLogin.Size = new System.Drawing.Size(0, 0);
             this.flowPanelLogin.TabIndex = 0;
@@ -346,7 +352,7 @@
             this.panelIzquierdo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelIzquierdo.Location = new System.Drawing.Point(3, 3);
             this.panelIzquierdo.Name = "panelIzquierdo";
-            this.panelIzquierdo.Size = new System.Drawing.Size(500, 634);
+            this.panelIzquierdo.Size = new System.Drawing.Size(620, 681);
             this.panelIzquierdo.TabIndex = 4;
             // 
             // pictureBox1
@@ -354,7 +360,7 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::PlayerUI.Properties.Resources.logo_sin_fondo;
-            this.pictureBox1.Location = new System.Drawing.Point(96, 190);
+            this.pictureBox1.Location = new System.Drawing.Point(156, 213);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(228, 221);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -366,9 +372,9 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox2.Image = global::PlayerUI.Properties.Resources.clouds_upright_2x4;
-            this.pictureBox2.Location = new System.Drawing.Point(292, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(412, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(208, 634);
+            this.pictureBox2.Size = new System.Drawing.Size(208, 681);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -377,7 +383,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1013, 640);
+            this.ClientSize = new System.Drawing.Size(1252, 687);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "AgregarPropiedadForm";
             this.Text = "DatosAlojamiento";

@@ -53,7 +53,7 @@ namespace PlayerUI.Controlls.AnfitrionControls
                 this.Font = new Font("Segoe UI", 9, FontStyle.Regular);
                 this.Width = 90;
                 this.Height = 30;
-                this.Margin = new Padding(10, 0, 0, 0);
+                this.Margin = new Padding(5, 0, 0, 0);
                 this.DoubleBuffered = true;
 
                 this.MouseEnter += (s, e) => this.BackColor = hoverColor;
@@ -118,10 +118,10 @@ namespace PlayerUI.Controlls.AnfitrionControls
                     RoundedPanel card = new RoundedPanel
                     {
                         Width = 240,
-                        Height = 360,
+                        Height = 275,
                         Margin = new Padding(10),
                         BorderRadius = 20,
-                        BackColor = Color.White
+                        BackColor = Color.Transparent,
                     };
 
                     
@@ -184,12 +184,15 @@ namespace PlayerUI.Controlls.AnfitrionControls
                     // Botones 1 (Editar, Ocultar)
                     FlowLayoutPanel botones1 = new FlowLayoutPanel
                     {
-                        Dock = DockStyle.Fill,
+
                         FlowDirection = FlowDirection.LeftToRight,
-                        WrapContents = false,
+                        AutoSize = true,
+                        AutoSizeMode = AutoSizeMode.GrowAndShrink,
                         BackColor = Color.Transparent,
-                        Padding = new Padding(0, 10, 0, 0),
-                        AutoSize = false
+                        Margin = new Padding(0),
+                        Padding = new Padding(0),
+                        Anchor = AnchorStyles.None,
+                        WrapContents = false
                     };
 
                     Button btnEditar = CrearBoton("Editar", Color.DodgerBlue, Color.RoyalBlue);
@@ -250,12 +253,14 @@ namespace PlayerUI.Controlls.AnfitrionControls
                     
                     FlowLayoutPanel botones2 = new FlowLayoutPanel
                     {
-                        Dock = DockStyle.Fill,
                         FlowDirection = FlowDirection.LeftToRight,
-                        WrapContents = false,
+                        AutoSize = true,
+                        AutoSizeMode = AutoSizeMode.GrowAndShrink,
                         BackColor = Color.Transparent,
-                        Padding = new Padding(0, 5, 0, 10),
-                        AutoSize = false
+                        Margin = new Padding(0),
+                        Padding = new Padding(0),
+                        Anchor = AnchorStyles.None,
+                        WrapContents = false
                     };
 
                     Button btnVisualizar = CrearBoton("Visualizar", Color.SeaGreen, Color.MediumSeaGreen);
@@ -323,7 +328,7 @@ namespace PlayerUI.Controlls.AnfitrionControls
         public RoundedPanel()
         {
             this.DoubleBuffered = true;
-            this.BackColor = Color.White;
+            this.BackColor = Color.Transparent;
         }
 
         protected override void OnPaint(PaintEventArgs e)

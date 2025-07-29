@@ -112,3 +112,7 @@ C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\Pla
 C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Controlls.AnfitrionControls.MisPropiedadesControl.resources
 C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarPropiedadForm.resources
 C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.PanelAnfitrion.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Controlls.AnfitrionControls.MisPropiedadesControl.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarContraseña1.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarPropiedadForm.resources
+C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.PanelAnfitrion.resources

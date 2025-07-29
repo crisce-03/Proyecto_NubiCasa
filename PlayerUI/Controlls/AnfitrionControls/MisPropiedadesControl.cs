@@ -21,7 +21,12 @@ namespace PlayerUI.Controlls.AnfitrionControls
         private void btnAgregarPropiedad_Click(object sender, EventArgs e)
         {
             AgregarPropiedadForm agregarPropiedad = new AgregarPropiedadForm(idAnfitrion);
-            agregarPropiedad.Show();
+            agregarPropiedad.ShowDialog();
+            if (agregarPropiedad.PropiedadAgregada)
+            {
+                CargarPropiedades();
+            }
+;
         }
 
         private void MisPropiedadesForm_Load(object sender, EventArgs e)
@@ -29,7 +34,7 @@ namespace PlayerUI.Controlls.AnfitrionControls
             CargarPropiedades();
         }
 
-        // Botón con bordes redondeados y efecto hover
+        
         private class RoundedButton : Button
         {
             private int borderRadius = 15;
@@ -92,6 +97,7 @@ namespace PlayerUI.Controlls.AnfitrionControls
 
         private void CargarPropiedades()
         {
+
             flowLayoutPanelPropiedades.Controls.Clear();
 
             using (SqlConnection con = Conexion.ObtenerConexion())
@@ -108,7 +114,7 @@ namespace PlayerUI.Controlls.AnfitrionControls
                 {
                     int idPropiedad = Convert.ToInt32(reader["Id_Propiedad"]);
 
-                    // Panel principal con bordes redondeados
+                    
                     RoundedPanel card = new RoundedPanel
                     {
                         Width = 240,
@@ -118,21 +124,21 @@ namespace PlayerUI.Controlls.AnfitrionControls
                         BackColor = Color.White
                     };
 
-                    // Layout principal
+                    
                     TableLayoutPanel layout = new TableLayoutPanel
                     {
                         Dock = DockStyle.Fill,
                         RowCount = 5,
                         ColumnCount = 1,
-                        BackColor = Color.Transparent, // TRANSPARENTE para eliminar borde rectangular
+                        BackColor = Color.Transparent, 
                         Padding = new Padding(5)
                     };
 
-                    layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 100)); // Imagen
-                    layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 60));  // Info
-                    layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100));  // Espacio
-                    layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 45));  // Botones 1
-                    layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 45));  // Botones 2
+                    layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 100)); 
+                    layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 60));  
+                    layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100));  
+                    layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 45));  
+                    layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 45));  
 
                     // Imagen
                     PictureBox pic = new PictureBox
@@ -140,7 +146,7 @@ namespace PlayerUI.Controlls.AnfitrionControls
                         Dock = DockStyle.Fill,
                         SizeMode = PictureBoxSizeMode.Zoom,
                         Margin = new Padding(0),
-                        BackColor = Color.Transparent // TRANSPARENTE para quitar bordes feos
+                        BackColor = Color.Transparent 
                     };
 
                     string rutaImagen = reader["RutaImagen"].ToString();
@@ -187,12 +193,61 @@ namespace PlayerUI.Controlls.AnfitrionControls
                     };
 
                     Button btnEditar = CrearBoton("Editar", Color.DodgerBlue, Color.RoyalBlue);
+                    btnEditar.Click += (s, e) =>
+                    {
+                        AgregarPropiedadForm editarForm = new AgregarPropiedadForm(idAnfitrion, idPropiedad);
+                        editarForm.ShowDialog();
+                        if (editarForm.PropiedadAgregada)
+                        {
+                            CargarPropiedades();
+                        }
+                    };
+
+                   
+
                     Button btnOcultar = CrearBoton("Ocultar", Color.Orange, Color.DarkOrange);
+
+                    btnOcultar.Click += (s, e) =>
+                    {
+                        if (lblEstado.Text == "Disponible")
+                        {
+                            
+                            using (SqlConnection conexion = Conexion.ObtenerConexion())
+                            {
+                                SqlCommand comandoDesactivar = new SqlCommand("UPDATE Propiedades SET Activo = 0 WHERE Id_Propiedad = @id", conexion);
+                                comandoDesactivar.Parameters.AddWithValue("@id", idPropiedad);
+                                comandoDesactivar.ExecuteNonQuery();
+                            }
+
+                            lblEstado.Text = "No disponible";
+                            lblEstado.ForeColor = Color.Red;
+                            btnOcultar.Text = "Mostrar";
+                            btnOcultar.BackColor = Color.LightGray;
+                            btnOcultar.ForeColor = Color.Black;
+                        }
+                        else
+                        {
+                            
+                            using (SqlConnection conexion = Conexion.ObtenerConexion())
+                            {
+                                SqlCommand comandoActivar = new SqlCommand("UPDATE Propiedades SET Activo = 1 WHERE Id_Propiedad = @id", conexion);
+                                comandoActivar.Parameters.AddWithValue("@id", idPropiedad);
+                                comandoActivar.ExecuteNonQuery();
+                            }
+
+                            lblEstado.Text = "Disponible";
+                            lblEstado.ForeColor = Color.Green;
+                            btnOcultar.Text = "Ocultar";
+                            btnOcultar.BackColor = Color.Orange;
+                            btnOcultar.ForeColor = Color.White;
+                        }
+                    };
+
 
                     botones1.Controls.Add(btnEditar);
                     botones1.Controls.Add(btnOcultar);
 
-                    // Botones 2 (Visualizar, Eliminar)
+                    
                     FlowLayoutPanel botones2 = new FlowLayoutPanel
                     {
                         Dock = DockStyle.Fill,
@@ -204,9 +259,15 @@ namespace PlayerUI.Controlls.AnfitrionControls
                     };
 
                     Button btnVisualizar = CrearBoton("Visualizar", Color.SeaGreen, Color.MediumSeaGreen);
+
+                    btnVisualizar.Click += (s, e) =>
+                    {
+                        AgregarPropiedadForm visualizarForm = new AgregarPropiedadForm(idAnfitrion, idPropiedad, soloLectura: true);
+                        visualizarForm.ShowDialog();
+                    };
+
                     Button btnEliminar = CrearBoton("Eliminar", Color.Crimson, Color.DarkRed);
 
-                    // Funcionalidad eliminar (solo UI)
                     btnEliminar.Click += (s, e) =>
                     {
                         if (MessageBox.Show("¿Seguro que quieres eliminar esta propiedad?", "Eliminar", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
@@ -235,17 +296,17 @@ namespace PlayerUI.Controlls.AnfitrionControls
                     botones2.Controls.Add(btnVisualizar);
                     botones2.Controls.Add(btnEliminar);
 
-                    // Agregar controles al layout
+                    
                     layout.Controls.Add(pic, 0, 0);
                     layout.Controls.Add(infoPanel, 0, 1);
-                    layout.Controls.Add(new Panel { BackColor = Color.Transparent }, 0, 2); // espacio vacío transparente
+                    layout.Controls.Add(new Panel { BackColor = Color.Transparent }, 0, 2); 
                     layout.Controls.Add(botones1, 0, 3);
                     layout.Controls.Add(botones2, 0, 4);
 
-                    // Agregar layout al panel redondeado
+                    
                     card.Controls.Add(layout);
 
-                    // Finalmente agregar la card al flowLayoutPanel
+                    
                     flowLayoutPanelPropiedades.Controls.Add(card);
                 }
 

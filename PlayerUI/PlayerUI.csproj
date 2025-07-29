@@ -147,6 +147,7 @@
     <Compile Include="Forms\RegisterHuesped.Designer.cs">
       <DependentUpon>RegisterHuesped.cs</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controlls\AnfitrionControls\InicioAnfitrionControl.resx">
@@ -197,6 +198,7 @@
     <EmbeddedResource Include="Forms\RegisterHuesped.resx">
       <DependentUpon>RegisterHuesped.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -207,6 +209,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include=".vs\PlayerUI.csproj.dtbcache.json" />
+    <None Include="bin\Debug\PlayerUI.exe.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -260,10 +264,14 @@
     <None Include="Resources\logorosado.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ignorar.gitignore" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="ImagenesPropiedades\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ImagenesPropiedades\" />
+    <Content Include="bin\Debug\ImagenesPropiedades\Captura de pantalla 2025-07-28 164154.png" />
+    <Content Include="bin\Debug\PlayerUI.exe" />
+    <Content Include="bin\Debug\PlayerUI.pdb" />
+    <Content Include="ignorar.gitignore" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -104,6 +104,7 @@
             this.panelDerecho.Name = "panelDerecho";
             this.panelDerecho.Size = new System.Drawing.Size(501, 634);
             this.panelDerecho.TabIndex = 5;
+           
             // 
             // btnSeleccionarImagen
             // 

@@ -116,3 +116,7 @@ C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerU
 C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarContraseña1.resources
 C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarPropiedadForm.resources
 C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.PanelAnfitrion.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Controlls.AnfitrionControls.MisPropiedadesControl.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarPropiedadForm.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.PanelAnfitrion.resources
+C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Login.resources

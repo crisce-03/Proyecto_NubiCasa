@@ -130,6 +130,11 @@
             // 
             this.numPrecio.Font = new System.Drawing.Font("Gadugi", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numPrecio.Location = new System.Drawing.Point(77, 304);
+            this.numPrecio.Maximum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            0});
             this.numPrecio.Name = "numPrecio";
             this.numPrecio.Size = new System.Drawing.Size(135, 38);
             this.numPrecio.TabIndex = 25;
@@ -184,7 +189,7 @@
             // 
             this.pictureBoxImagen.BackColor = System.Drawing.Color.Silver;
             this.pictureBoxImagen.Cursor = System.Windows.Forms.Cursors.Cross;
-            this.pictureBoxImagen.Location = new System.Drawing.Point(340, 88);
+            this.pictureBoxImagen.Location = new System.Drawing.Point(340, 91);
             this.pictureBoxImagen.Name = "pictureBoxImagen";
             this.pictureBoxImagen.Size = new System.Drawing.Size(130, 88);
             this.pictureBoxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

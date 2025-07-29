@@ -31,7 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanelPropiedades = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,23 +68,24 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mis Propiedades";
             // 
-            // flowLayoutPanel1
+            // flowLayoutPanelPropiedades
             // 
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 151);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1013, 489);
-            this.flowLayoutPanel1.TabIndex = 1;
+            this.flowLayoutPanelPropiedades.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanelPropiedades.Location = new System.Drawing.Point(0, 151);
+            this.flowLayoutPanelPropiedades.Name = "flowLayoutPanelPropiedades";
+            this.flowLayoutPanelPropiedades.Size = new System.Drawing.Size(1013, 489);
+            this.flowLayoutPanelPropiedades.TabIndex = 1;
             // 
             // MisPropiedadesControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1013, 640);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.flowLayoutPanelPropiedades);
             this.Controls.Add(this.panel1);
             this.Name = "MisPropiedadesControl";
             this.Text = "MisPropiedadesControlcs";
+            this.Load += new System.EventHandler(this.MisPropiedadesForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -96,6 +97,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelPropiedades;
     }
 }

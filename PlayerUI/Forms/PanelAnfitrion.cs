@@ -45,7 +45,7 @@ namespace PlayerUI
 
         private void btnInicio_Click(object sender, EventArgs e)
         {
-            openChildForm(new InicioHuespedControl());
+            openChildForm(new InicioAnfitrionControl(idAnfitrion));
             //..
             //your codes
             //..
@@ -95,9 +95,9 @@ namespace PlayerUI
         }
         #endregion
 
-        private void btnTools_Click(object sender, EventArgs e)
+        private void btnMensajes_Click(object sender, EventArgs e)
         {
-            openChildForm(new MisReservasControl());
+            openChildForm(new MensajesAnfitrionControl(idAnfitrion));
             //..
             //your codes
             //..

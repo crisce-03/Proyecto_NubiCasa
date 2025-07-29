@@ -122,3 +122,5 @@ C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Pane
 C:\Users\Usuario\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Login.resources
 C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Login.resources
 C:\Users\Axel Cerritos\source\repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Login.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Controlls.AnfitrionControls.MensajesAnfitrionControl.resources
+C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Controlls.ReservasRecibidasControl.resources

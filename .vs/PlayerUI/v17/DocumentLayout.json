@@ -1,58 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\",
+  "WorkspaceRootPath": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\asus\\source\\repos\\modern-media-player-ui-c-sharp\\playerui\\controlls\\anfitrioncontrols\\mispropiedadescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\anfitrioncontrols\\mispropiedadescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\axel cerritos\\source\\repos\\proyecto_nubicasa\\playerui\\controlls\\anfitrioncontrols\\inicioanfitrioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\anfitrioncontrols\\inicioanfitrioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\controlls\\huespedcontrols\\buscarpropiedadcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\huespedcontrols\\buscarpropiedadcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\axel cerritos\\source\\repos\\proyecto_nubicasa\\playerui\\controlls\\anfitrioncontrols\\inicioanfitrioncontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\anfitrioncontrols\\inicioanfitrioncontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\controlls\\huespedcontrols\\buscarpropiedadcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\huespedcontrols\\buscarpropiedadcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\axel cerritos\\source\\repos\\proyecto_nubicasa\\playerui\\controlls\\anfitrioncontrols\\inicioanfitrioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\anfitrioncontrols\\inicioanfitrioncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\controlls\\huespedcontrols\\misreservascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\axel cerritos\\source\\repos\\proyecto_nubicasa\\playerui\\controlls\\huespedcontrols\\misreservascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\huespedcontrols\\misreservascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\controlls\\anfitrioncontrols\\reservasrecibidascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\anfitrioncontrols\\reservasrecibidascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\axel cerritos\\source\\repos\\proyecto_nubicasa\\playerui\\controlls\\huespedcontrols\\iniciohuespedcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\huespedcontrols\\iniciohuespedcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\controlls\\anfitrioncontrols\\reservasrecibidascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\anfitrioncontrols\\reservasrecibidascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\axel cerritos\\source\\repos\\proyecto_nubicasa\\playerui\\controlls\\huespedcontrols\\iniciohuespedcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\huespedcontrols\\iniciohuespedcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\forms\\agregarpropiedadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\forms\\agregarpropiedadform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\forms\\logincopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\forms\\logincopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\controlls\\huespedcontrols\\misreservascontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\huespedcontrols\\misreservascontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\controlls\\huespedcontrols\\misreservascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\huespedcontrols\\misreservascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\forms\\panelanfitrion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\forms\\panelanfitrion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\playerui\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\axel cerritos\\source\\repos\\proyecto_nubicasa\\playerui\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|c:\\users\\axel cerritos\\source\\repos\\proyecto_nubicasa\\playerui\\controlls\\huespedcontrols\\misreservascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B265B459-B4B6-44BC-BDB1-B401C58DC48F}|PlayerUI\\PlayerUI.csproj|solutionrelative:playerui\\controlls\\huespedcontrols\\misreservascontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,160 +42,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 180,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MisPropiedadesControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\AnfitrionControls\\MisPropiedadesControl.cs",
-              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\AnfitrionControls\\MisPropiedadesControl.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\AnfitrionControls\\MisPropiedadesControl.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlayerUI\\Controlls\\AnfitrionControls\\MisPropiedadesControl.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T03:19:43.84Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BuscarPropiedadControl.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\HuespedControls\\BuscarPropiedadControl.cs",
-              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\HuespedControls\\BuscarPropiedadControl.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\HuespedControls\\BuscarPropiedadControl.cs",
-              "RelativeToolTip": "PlayerUI\\Controlls\\HuespedControls\\BuscarPropiedadControl.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBoBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T03:13:28.076Z"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BuscarPropiedadControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\HuespedControls\\BuscarPropiedadControl.cs",
-              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\HuespedControls\\BuscarPropiedadControl.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\HuespedControls\\BuscarPropiedadControl.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlayerUI\\Controlls\\HuespedControls\\BuscarPropiedadControl.cs [Dise\u00F1o]",
+              "Title": "InicioAnfitrionControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Axel Cerritos\\Source\\Repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.Designer.cs",
+              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.Designer.cs",
+              "ToolTip": "C:\\Users\\Axel Cerritos\\Source\\Repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.Designer.cs",
+              "RelativeToolTip": "PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.Designer.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwHYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T03:13:23.735Z"
+              "WhenOpened": "2025-07-30T05:08:19.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReservasRecibidasControl.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\AnfitrionControls\\ReservasRecibidasControl.cs",
-              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\AnfitrionControls\\ReservasRecibidasControl.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\AnfitrionControls\\ReservasRecibidasControl.cs",
-              "RelativeToolTip": "PlayerUI\\Controlls\\AnfitrionControls\\ReservasRecibidasControl.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAwwK8AAABUAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "InicioAnfitrionControl.cs",
+              "DocumentMoniker": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.cs",
+              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.cs",
+              "ToolTip": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.cs",
+              "RelativeToolTip": "PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T02:00:07.767Z"
+              "WhenOpened": "2025-07-30T05:05:07.625Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReservasRecibidasControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\AnfitrionControls\\ReservasRecibidasControl.cs",
-              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\AnfitrionControls\\ReservasRecibidasControl.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\AnfitrionControls\\ReservasRecibidasControl.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PlayerUI\\Controlls\\AnfitrionControls\\ReservasRecibidasControl.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "InicioAnfitrionControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.cs",
+              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.cs",
+              "ToolTip": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlayerUI\\Controlls\\AnfitrionControls\\InicioAnfitrionControl.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T02:00:05.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginCopia.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Forms\\LoginCopia.cs",
-              "RelativeDocumentMoniker": "PlayerUI\\Forms\\LoginCopia.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Forms\\LoginCopia.cs",
-              "RelativeToolTip": "PlayerUI\\Forms\\LoginCopia.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T01:48:42.972Z"
+              "WhenOpened": "2025-07-30T04:53:02.532Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AgregarPropiedadForm.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Forms\\AgregarPropiedadForm.cs",
-              "RelativeDocumentMoniker": "PlayerUI\\Forms\\AgregarPropiedadForm.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Forms\\AgregarPropiedadForm.cs",
-              "RelativeToolTip": "PlayerUI\\Forms\\AgregarPropiedadForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T01:48:09.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PanelAnfitrion.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Forms\\PanelAnfitrion.cs",
-              "RelativeDocumentMoniker": "PlayerUI\\Forms\\PanelAnfitrion.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Forms\\PanelAnfitrion.cs",
-              "RelativeToolTip": "PlayerUI\\Forms\\PanelAnfitrion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T01:44:57.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Forms\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Forms\\Form1.cs",
               "RelativeDocumentMoniker": "PlayerUI\\Forms\\Form1.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Forms\\Form1.cs",
+              "ToolTip": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Forms\\Form1.cs",
               "RelativeToolTip": "PlayerUI\\Forms\\Form1.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwF4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAmwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T01:34:43.544Z"
+              "WhenOpened": "2025-07-30T04:37:20.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Properties\\Resources.Designer.cs",
-              "RelativeDocumentMoniker": "PlayerUI\\Properties\\Resources.Designer.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Properties\\Resources.Designer.cs",
-              "RelativeToolTip": "PlayerUI\\Properties\\Resources.Designer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAewBoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T01:34:34.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MisReservasControl.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.Designer.cs",
-              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.Designer.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.Designer.cs",
-              "RelativeToolTip": "PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.Designer.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAD4v2MAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T01:31:25.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "MisReservasControl.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs",
+              "DocumentMoniker": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs",
               "RelativeDocumentMoniker": "PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs",
+              "ToolTip": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs",
               "RelativeToolTip": "PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAIwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T01:23:26.712Z"
+              "WhenOpened": "2025-07-30T04:17:57.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InicioHuespedControl.cs",
+              "DocumentMoniker": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\HuespedControls\\InicioHuespedControl.cs",
+              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\HuespedControls\\InicioHuespedControl.cs",
+              "ToolTip": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\HuespedControls\\InicioHuespedControl.cs",
+              "RelativeToolTip": "PlayerUI\\Controlls\\HuespedControls\\InicioHuespedControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T04:27:25.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InicioHuespedControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\HuespedControls\\InicioHuespedControl.cs",
+              "RelativeDocumentMoniker": "PlayerUI\\Controlls\\HuespedControls\\InicioHuespedControl.cs",
+              "ToolTip": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\HuespedControls\\InicioHuespedControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PlayerUI\\Controlls\\HuespedControls\\InicioHuespedControl.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T03:48:30.999Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MisReservasControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs",
+              "DocumentMoniker": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs",
               "RelativeDocumentMoniker": "PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Modern-Media-Player-UI-C-Sharp\\PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Axel Cerritos\\source\\repos\\Proyecto_NubiCasa\\PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs [Dise\u00F1o]",
               "RelativeToolTip": "PlayerUI\\Controlls\\HuespedControls\\MisReservasControl.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T01:23:23.226Z"
+              "WhenOpened": "2025-07-30T04:17:52.421Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

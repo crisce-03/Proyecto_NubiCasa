@@ -111,5 +111,10 @@ namespace PlayerUI.Controlls
             MessageBox.Show("Reserva cancelada.");
             CargarReservas(); // refrescar el datagrid
         }
+
+        private void dgvMisReservas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

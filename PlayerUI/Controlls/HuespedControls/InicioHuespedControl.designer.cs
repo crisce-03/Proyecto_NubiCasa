@@ -53,9 +53,9 @@
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.LightGray;
             this.button5.Location = new System.Drawing.Point(0, 0);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(33, 31);
+            this.button5.Size = new System.Drawing.Size(37, 39);
             this.button5.TabIndex = 14;
             this.button5.Text = "X";
             this.button5.UseVisualStyleBackColor = true;
@@ -64,17 +64,18 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(45, 10);
+            this.label2.Location = new System.Drawing.Point(51, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(402, 45);
+            this.label2.Size = new System.Drawing.Size(491, 55);
             this.label2.TabIndex = 15;
             this.label2.Text = "¡Bienvenido a NubiCasa !";
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 67);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 84);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(497, 506);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(559, 632);
             this.flowLayoutPanel1.TabIndex = 16;
             // 
             // panel1
@@ -84,8 +85,9 @@
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1013, 70);
+            this.panel1.Size = new System.Drawing.Size(1140, 88);
             this.panel1.TabIndex = 17;
             // 
             // label1
@@ -94,17 +96,19 @@
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 32);
+            this.label1.Size = new System.Drawing.Size(210, 39);
             this.label1.TabIndex = 19;
             this.label1.Text = "Tus Reservas:";
             // 
             // flowLayoutPanel2
             // 
+            this.flowLayoutPanel2.AutoScroll = true;
             this.flowLayoutPanel2.Controls.Add(this.label1);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 70);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 88);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1013, 329);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1140, 411);
             this.flowLayoutPanel2.TabIndex = 20;
             // 
             // label4
@@ -113,7 +117,7 @@
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(181, 32);
+            this.label4.Size = new System.Drawing.Size(222, 39);
             this.label4.TabIndex = 20;
             this.label4.Text = "Notificaciones:";
             // 
@@ -123,7 +127,7 @@
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(212, 32);
+            this.label3.Size = new System.Drawing.Size(259, 39);
             this.label3.TabIndex = 19;
             this.label3.Text = "Recomendaciones:";
             // 
@@ -131,9 +135,10 @@
             // 
             this.flowLayoutPanel3.Controls.Add(this.label3);
             this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 399);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 499);
+            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(1013, 241);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(1140, 301);
             this.flowLayoutPanel3.TabIndex = 21;
             // 
             // panel2
@@ -141,9 +146,10 @@
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.listView1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 200);
+            this.panel2.Location = new System.Drawing.Point(0, 250);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1013, 199);
+            this.panel2.Size = new System.Drawing.Size(1140, 249);
             this.panel2.TabIndex = 22;
             // 
             // listView1
@@ -151,22 +157,23 @@
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, 0);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1013, 199);
+            this.listView1.Size = new System.Drawing.Size(1140, 249);
             this.listView1.TabIndex = 21;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // InicioHuespedControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1013, 640);
+            this.ClientSize = new System.Drawing.Size(1140, 800);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "InicioHuespedControl";
             this.Text = "Form3";
             this.panel1.ResumeLayout(false);

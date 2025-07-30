@@ -126,3 +126,6 @@ C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\Pla
 C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Controlls.ReservasRecibidasControl.resources
 C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarReserva.resources
 C:\Users\ASUS\Source\Repos\Modern-Media-Player-UI-C-Sharp\PlayerUI\obj\Debug\PlayerUI.Controlls.HuespedControls.MisReservasControl.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Controlls.AnfitrionControls.MensajesAnfitrionControl.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Controlls.ReservasRecibidasControl.resources
+C:\Users\Axel Cerritos\Source\Repos\Proyecto_NubiCasa\PlayerUI\obj\Debug\PlayerUI.Forms.AgregarReserva.resources

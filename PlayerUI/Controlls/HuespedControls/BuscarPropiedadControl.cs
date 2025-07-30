@@ -158,6 +158,12 @@ namespace PlayerUI.Controlls
                     botones.Controls.Add(btnVisualizar);
                     botones.Controls.Add(btnReservar);
 
+                    btnReservar.Click += (s, e) =>
+                    {
+                        AgregarReserva frm = new AgregarReserva(idAnfitrion, idPropiedad);
+                        frm.ShowDialog(); // o frm.Show(); si no lo quieres modal
+                    };
+
                     layout.Controls.Add(pic, 0, 0);
                     layout.Controls.Add(infoPanel, 0, 1);
                     layout.Controls.Add(new Panel { BackColor = Color.Transparent }, 0, 2);

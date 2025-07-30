@@ -94,21 +94,22 @@ namespace PlayerUI
 
             using (SqlConnection conexion = Conexion.ObtenerConexion())
             {
-                string consulta = "SELECT COUNT(*) FROM Huesped WHERE Nombre = @Nombre AND Contrasena = @Contrasena";
+                string consulta = "SELECT ID_Huesped FROM Huesped WHERE Nombre = @Nombre AND Contrasena = @Contrasena";
 
                 SqlCommand comando = new SqlCommand(consulta, conexion);
                 comando.Parameters.AddWithValue("@Nombre", usuario);
                 comando.Parameters.AddWithValue("@Contrasena", contrasena);
 
-                int resultado = (int)comando.ExecuteScalar();
+                object resultado = comando.ExecuteScalar();
 
-                if (resultado > 0)
+                if (resultado != null)
                 {
+                    int idHuesped = Convert.ToInt32(resultado);
                     MessageBox.Show("Inicio de sesión exitoso", "Bienvenido");
 
-                    Form1 form1 = new Form1();
-                    form1.Show();
-                    this.Hide();
+                    Form1 panelAnfitrion = new Form1(idHuesped);
+                    panelAnfitrion.Show();
+                    this.Close();
                 }
                 else
                 {

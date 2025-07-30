@@ -23,13 +23,16 @@ namespace PlayerUI.Controlls
             CargarPropiedadesDisponibles();
         }
 
-        private void CargarPropiedadesDisponibles(string ubicacion = null, decimal? precioMin = null, decimal? precioMax = null, int? huespedes = null, string tipoResidencia = null)
+        private void CargarPropiedadesDisponibles(string ubicacion = null, decimal? precioMin = null, decimal? precioMax = null, int? habitaciones = null, string tipoResidencia = null)
         {
             flowLayoutPanelBusqueda.Controls.Clear();
 
             using (SqlConnection con = Conexion.ObtenerConexion())
             {
-                string query = @"SELECT Id_Propiedad, Nombre, Precio, RutaImagen, IdAnfitrion FROM Propiedades WHERE Activo = 1";
+                string query = @"SELECT Id_Propiedad, Nombre, Precio, RutaImagen, IdAnfitrion, Ubicacion, Capacidad, Tipo 
+                                 FROM Propiedades 
+                                 WHERE Activo = 1";
+
                 List<string> condiciones = new List<string>();
                 List<SqlParameter> parametros = new List<SqlParameter>();
 
@@ -46,20 +49,22 @@ namespace PlayerUI.Controlls
                     parametros.Add(new SqlParameter("@precioMax", precioMax.Value));
                 }
 
-                if (huespedes.HasValue)
+                if (habitaciones.HasValue)
                 {
-                    condiciones.Add("Capacidad >= @huespedes");
-                    parametros.Add(new SqlParameter("@huespedes", huespedes.Value));
+                    condiciones.Add("Capacidad = @habitaciones");
+                    parametros.Add(new SqlParameter("@habitaciones", habitaciones.Value));
                 }
 
                 if (!string.IsNullOrWhiteSpace(tipoResidencia))
                 {
-                    condiciones.Add("TipoResidencia = @tipoResidencia");
+                    condiciones.Add("Tipo = @tipoResidencia");
                     parametros.Add(new SqlParameter("@tipoResidencia", tipoResidencia));
                 }
 
                 if (condiciones.Count > 0)
-                    query += " AND (" + string.Join(" OR ", condiciones) + ")";
+                {
+                    query += " AND " + string.Join(" AND ", condiciones);
+                }
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddRange(parametros.ToArray());
@@ -150,7 +155,6 @@ namespace PlayerUI.Controlls
                     };
 
                     Button btnReservar = CrearBoton("Reservar", Color.RoyalBlue, Color.MediumBlue);
-
                     botones.Controls.Add(btnVisualizar);
                     botones.Controls.Add(btnReservar);
 
@@ -170,10 +174,9 @@ namespace PlayerUI.Controlls
         private void button1_Click(object sender, EventArgs e)
         {
             string ubicacion = textBox1.Text.Trim();
-            decimal precioMin = numericUpDown1.Value;
-            decimal precioMax = numericUpDown2.Value;
             string tipoResidencia = comboBox1.SelectedItem?.ToString();
-            int? huespedes = int.TryParse(textBox2.Text, out int result) ? result : (int?)null;
+            decimal? precioMin = numericUpDown1.Value;
+            decimal? precioMax = numericUpDown2.Value;
 
             if (precioMin > precioMax)
             {
@@ -181,7 +184,15 @@ namespace PlayerUI.Controlls
                 return;
             }
 
-            CargarPropiedadesDisponibles(ubicacion, precioMin, precioMax, huespedes, tipoResidencia);
+            int? habitaciones = int.TryParse(textBox2.Text, out int result) ? result : (int?)null;
+
+            CargarPropiedadesDisponibles(
+                string.IsNullOrWhiteSpace(ubicacion) ? null : ubicacion,
+                precioMin > 0 ? precioMin : null,
+                precioMax > 0 ? precioMax : null,
+                habitaciones,
+                string.IsNullOrWhiteSpace(tipoResidencia) ? null : tipoResidencia
+            );
         }
 
         private Button CrearBoton(string texto, Color colorFondo, Color colorHover)

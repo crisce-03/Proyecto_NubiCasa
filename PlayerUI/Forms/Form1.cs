@@ -13,9 +13,12 @@ namespace PlayerUI
 {
     public partial class Form1 : Form
     {
-        public Form1()
+
+        private int idHuesped;
+        public Form1(int ID_Huesped)
         {
             InitializeComponent();
+            this.idHuesped = ID_Huesped;
             hideSubMenu();
         }
 
@@ -90,7 +93,7 @@ namespace PlayerUI
 
         private void btnTools_Click(object sender, EventArgs e)
         {
-            openChildForm(new MisReservasControl());
+            openChildForm(new MisReservasControl(idHuesped));
             //..
             //your codes
             //..

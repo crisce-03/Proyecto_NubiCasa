@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbEstados = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnRechazar = new System.Windows.Forms.Button();
+            this.btnAceptar = new System.Windows.Forms.Button();
+            this.dgvReservas = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvReservas)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -52,13 +52,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "RESERVAS RECIBIDAS";
             // 
-            // comboBox1
+            // cbEstados
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(166, 76);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(332, 24);
-            this.comboBox1.TabIndex = 1;
+            this.cbEstados.FormattingEnabled = true;
+            this.cbEstados.Location = new System.Drawing.Point(166, 76);
+            this.cbEstados.Name = "cbEstados";
+            this.cbEstados.Size = new System.Drawing.Size(332, 24);
+            this.cbEstados.TabIndex = 1;
             // 
             // label2
             // 
@@ -69,12 +69,11 @@
             this.label2.Size = new System.Drawing.Size(87, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "Estado:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.cbEstados);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -84,42 +83,44 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.btnRechazar);
+            this.panel2.Controls.Add(this.btnAceptar);
+            this.panel2.Controls.Add(this.dgvReservas);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 123);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1013, 517);
             this.panel2.TabIndex = 4;
             // 
-            // dataGridView1
+            // btnRechazar
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(96, 46);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(624, 382);
-            this.dataGridView1.TabIndex = 0;
+            this.btnRechazar.Location = new System.Drawing.Point(772, 241);
+            this.btnRechazar.Name = "btnRechazar";
+            this.btnRechazar.Size = new System.Drawing.Size(160, 73);
+            this.btnRechazar.TabIndex = 2;
+            this.btnRechazar.Text = "Rechezar";
+            this.btnRechazar.UseVisualStyleBackColor = true;
+            this.btnRechazar.Click += new System.EventHandler(this.btnRechazar_Click);
             // 
-            // button1
+            // btnAceptar
             // 
-            this.button1.Location = new System.Drawing.Point(772, 161);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 73);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Aceptar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAceptar.Location = new System.Drawing.Point(772, 148);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(160, 73);
+            this.btnAceptar.TabIndex = 1;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
-            // button2
+            // dgvReservas
             // 
-            this.button2.Location = new System.Drawing.Point(772, 259);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(160, 73);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Rechezar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.dgvReservas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvReservas.Location = new System.Drawing.Point(96, 46);
+            this.dgvReservas.Name = "dgvReservas";
+            this.dgvReservas.RowHeadersWidth = 51;
+            this.dgvReservas.RowTemplate.Height = 24;
+            this.dgvReservas.Size = new System.Drawing.Size(624, 382);
+            this.dgvReservas.TabIndex = 0;
             // 
             // ReservasRecibidasControl
             // 
@@ -133,7 +134,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvReservas)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -141,12 +142,12 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbEstados;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dgvReservas;
+        private System.Windows.Forms.Button btnRechazar;
+        private System.Windows.Forms.Button btnAceptar;
     }
 }

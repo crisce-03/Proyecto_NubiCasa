@@ -137,9 +137,9 @@ namespace PlayerUI
         }
         #endregion
 
-        private void btnEqualizer_Click(object sender, EventArgs e)
+        private void btnReservarRecibidas_Click(object sender, EventArgs e)
         {
-            openChildForm(new InicioHuespedControl());
+            openChildForm(new ReservasRecibidasControl(idAnfitrion));
             //..
             //your codes
             //..

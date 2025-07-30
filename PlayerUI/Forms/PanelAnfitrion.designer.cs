@@ -147,7 +147,7 @@
             this.btnEqualizer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEqualizer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEqualizer.UseVisualStyleBackColor = false;
-            this.btnEqualizer.Click += new System.EventHandler(this.btnEqualizer_Click);
+            this.btnEqualizer.Click += new System.EventHandler(this.btnReservarRecibidas_Click);
             // 
             // btnMisPropiedades
             // 
